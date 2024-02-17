@@ -37,7 +37,7 @@ void setup() {
                      ? _true_
                      : _false_);  ///< should print true, since qwerty == qwerty
   Serial.println(
-      "qwirty" == password
+      password == "qwirty"
           ? _true_
           : _false_);  ///< should print false, since qwerty != qwirty
 }
